@@ -1,7 +1,6 @@
 #!/bin/bash
 
 # If not working, first do: sudo rm -rf /tmp/.docker.xauth
-# It still not working, try running the script as root.
 
 # http://wiki.ros.org/docker/Tutorials/Hardware%20Acceleration#nvidia-docker2
 # https://answers.ros.org/question/300113/docker-how-to-use-rviz-and-gazebo-from-a-container/
@@ -31,5 +30,3 @@ docker run -it \
     --runtime=nvidia \
     noetic-gpu\
     bash
-
-echo "Done."
